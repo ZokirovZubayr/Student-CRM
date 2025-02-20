@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Mars o'quvchilari</h1>
+
+</body>
+{% for students in students %}
+
+    <h1>'{{ students.name }} {{ students.surname }}' ma'lumotlari:  {{ students.age }} yosh, {{ students.guruh }}-{{ students.kurs }} guruhida oqiydi</h1>
+
+{% endfor %}
+</html>
